@@ -1,21 +1,72 @@
-# Takanuva Productions website template
+# Takanuva Productions
 
-A responsive, bilingual (Greek / English) multi-page template for Takanuva Productions. Every page shares the same navigation, language selector, footer, visual style and page links.
+### Portfolio case study · Ιστοσελίδα μουσικής παραγωγής
 
-## Pages
+## Σύνοψη έργου
 
-- `index.html` — Home
-- `services.html` — Services
-- `producer.html` — Producer
-- `studio.html` — Studio
-- `process.html` — Process
-- `reviews.html` — Reviews
-- `contact.html` — Contact
+Δίγλωσση, responsive ιστοσελίδα για το Takanuva Productions, με σαφή εστίαση στη hip-hop και rap μουσική. Η δομή παρουσιάζει τις υπηρεσίες, τον παραγωγό, το στούντιο και τη διαδικασία συνεργασίας, οδηγώντας τον επισκέπτη από την πρώτη γνωριμία σε επικοινωνία για το project του.
 
-Open `index.html` in a browser to preview the site and use the navigation to open each page. The language selection is remembered in the browser. The contact form is a front-end demo and does not send or store data. Replace the sample reviews, contact address (`contact@example.com`) and copy with your own details before publishing.
+## Στόχοι εμπειρίας
 
-## Shared files
+- Να γίνεται άμεσα κατανοητό τι προσφέρει το στούντιο και σε ποιους απευθύνεται.
+- Να ξεχωρίζει η ταυτότητα hip-hop / rap σε όλες τις σελίδες.
+- Να υπάρχει εύκολη διαδρομή προς τις υπηρεσίες, τον παραγωγό και την επικοινωνία.
+- Να είναι διαθέσιμο το περιεχόμενο στα ελληνικά και στα αγγλικά.
+- Να λειτουργεί άνετα σε desktop και κινητό.
 
-- `styles.css` — local colors, layout, responsive styles and components
-- `app.js` — language switching, page interactions, review carousel, mobile menu and demo contact form
-- `assets/` — locally stored studio, performance and portrait photos
+## Δομή και ρόλος κάθε σελίδας
+
+| Σελίδα | Ρόλος στη διαδρομή του επισκέπτη |
+| --- | --- |
+| Αρχική | Παρουσιάζει την ταυτότητα και το βασικό μήνυμα, και οδηγεί στις κύριες ενότητες. |
+| Υπηρεσίες | Οργανώνει την παραγωγή, το beatmaking, την ηχογράφηση vocals, τη συγγραφή και τη μίξη/mastering. |
+| Παραγωγός | Παρουσιάζει τον Takanuva, τις ειδικότητές του και το Spotify artist profile. |
+| Στούντιο | Δίνει εικόνα του δημιουργικού χώρου και των αρχών συνεργασίας. |
+| Διαδικασία | Εξηγεί τα βήματα από το πρώτο demo μέχρι το τελικό master. |
+| Κριτικές | Προβλέπει χώρο για εμπειρίες συνεργατών και σχετικό carousel. |
+| Επικοινωνία | Συγκεντρώνει τα στοιχεία επικοινωνίας και τη φόρμα ενδιαφέροντος. |
+
+### Ροή περιήγησης
+
+Η πλοήγηση κρατά τις βασικές ενότητες διαθέσιμες από κάθε σελίδα. Η βασική διαδρομή είναι:
+
+Αρχική → Υπηρεσίες → Επικοινωνία  
+Αρχική → Παραγωγός → Επικοινωνία  
+Αρχική → Στούντιο → Διαδικασία → Επικοινωνία
+
+Η σειρά αυτή απαντά πρώτα στο «τι προσφέρεται», έπειτα στο «ποιος το αναλαμβάνει» και «πώς γίνεται η συνεργασία», και καταλήγει σε σαφή επόμενη ενέργεια.
+
+## Οπτική κατεύθυνση
+
+Η σχεδιαστική γλώσσα αντλεί από hip-hop και rap αισθητική: σκούρες επιφάνειες, έντονες ροζ και κόκκινες λεπτομέρειες, δυνατή τυπογραφία και φωτογραφίες στούντιο. Το ίδιο SVG logo χρησιμοποιείται στις κεφαλίδες ώστε να παραμένει καθαρό σε διαφορετικά μεγέθη. Οι μεγάλες εισαγωγικές ενότητες ξεχωρίζουν τις σελίδες, ενώ οι κάρτες και τα μικρά blocks κάνουν το περιεχόμενο εύκολο στη σάρωση.
+
+## Τεχνική δομή
+
+Το site είναι στατικό και δεν χρειάζεται build step ή framework.
+
+- **HTML:** ξεχωριστό αρχείο για κάθε σελίδα, με κοινή πλοήγηση και footer.
+- **CSS:** κοινό design system, layouts, components και responsive συμπεριφορά στο styles.css.
+- **JavaScript:** ελληνικά/αγγλικά, απομνημόνευση επιλογής γλώσσας, mobile menu, carousel κριτικών και συμπεριφορά demo φόρμας στο app.js.
+- **Assets:** φωτογραφίες στούντιο και δημιουργίας, καθώς και SVG / PNG εκδόσεις του logo.
+- **Spotify:** ενσωματωμένο artist player στη σελίδα Παραγωγού.
+
+## Δομή αρχείων
+
+    takanuva/
+    ├── index.html
+    ├── services.html
+    ├── producer.html
+    ├── studio.html
+    ├── process.html
+    ├── reviews.html
+    ├── contact.html
+    ├── styles.css
+    ├── app.js
+    ├── README.md
+    └── assets/
+
+## Κατάσταση περιεχομένου
+
+Η φόρμα επικοινωνίας είναι demo και δεν αποστέλλει δεδομένα. Το email contact@example.com είναι placeholder, ενώ οι κριτικές είναι ενδεικτικό περιεχόμενο· πριν από δημοσίευση χρειάζονται πραγματικά στοιχεία επικοινωνίας, σύνδεση της φόρμας με backend και αυθεντικές κριτικές με άδεια δημοσίευσης.
+
+Για τοπική προεπισκόπηση, άνοιξε το index.html σε browser και χρησιμοποίησε το μενού για να περιηγηθείς στις σελίδες.
