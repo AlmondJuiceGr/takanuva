@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">TRAFIK GANG</title>
+  <desc id="logo-description">Arched red and pink TRAFIK GANG lettering above a white wireframe globe.</desc>
+  <defs>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ed1745"/>
+      <stop offset=".48" stop-color="#fa1839"/>
+      <stop offset="1" stop-color="#ee48b4"/>
+    </linearGradient>
+    <clipPath id="globe-clip">
+      <circle cx="360" cy="390" r="181"/>
+    </clipPath>
+    <path id="word-arc" d="M 48 330 C 108 66, 612 66, 672 330"/>
+  </defs>
+
+  <text fill="url(#wordmark)" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="3" word-spacing="10">
+    <textPath href="#word-arc" startOffset="50%" text-anchor="middle">TRAFIK GANG</textPath>
+  </text>
+
+  <g fill="none" stroke="#f4f2ed" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="360" cy="390" r="181" stroke-width="5"/>
+    <g clip-path="url(#globe-clip)" stroke-width="3" opacity=".91">
+      <ellipse cx="360" cy="390" rx="180" ry="54"/>
+      <ellipse cx="360" cy="390" rx="180" ry="105"/>
+      <ellipse cx="360" cy="390" rx="180" ry="150"/>
+      <ellipse cx="360" cy="390" rx="52" ry="180"/>
+      <ellipse cx="360" cy="390" rx="105" ry="180"/>
+      <ellipse cx="360" cy="390" rx="154" ry="180"/>
+      <ellipse cx="360" cy="390" rx="176" ry="58" transform="rotate(37 360 390)"/>
+      <ellipse cx="360" cy="390" rx="176" ry="58" transform="rotate(-37 360 390)"/>
+      <ellipse cx="360" cy="390" rx="177" ry="83" transform="rotate(70 360 390)"/>
+      <ellipse cx="360" cy="390" rx="177" ry="83" transform="rotate(-70 360 390)"/>
+      <path d="M190 305 C263 346 442 448 528 495"/>
+      <path d="M190 475 C276 422 424 308 530 280"/>
+      <path d="M245 230 C303 345 416 450 482 548"/>
+      <path d="M478 230 C412 336 306 439 239 548"/>
+    </g>
+  </g>
+</svg>
