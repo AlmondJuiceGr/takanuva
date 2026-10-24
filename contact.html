@@ -85,11 +85,16 @@
 </nav>
 <main>
 <header class="page-banner">
-  <div class="container"><div class="brand-hero__layout"><div class="brand-hero__copy">
+  <div class="container"><div class="brand-hero__layout">
+    <div class="brand-hero__copy">
     <p class="eyebrow">TAKANUVA PRODUCTIONS</p>
     <h1 data-i18n="contact.title">Πες μας για το project σου</h1>
     <p class="page-lead" data-i18n="contact.lead">Στείλε μας λίγες λεπτομέρειες και θα επικοινωνήσουμε για τα επόμενα βήματα.</p>
-  </div><div class="brand-hero__logo"><img src="assets/trafik-gang-logo.svg" alt="Trafik Gang logo"></div></div></div></header>
+  </div><div class="brand-hero__logo"><img src="assets/trafik-gang-logo.svg" alt="Trafik Gang logo">
+  </div>
+</div>
+</div>
+</header>
 <section class="contact-page section--small bg--white">
   <div class="container">
     <div class="contact-grid">
@@ -98,7 +103,8 @@
       <h2 data-i18n="contact.heading">Κάθε ωραίο track ξεκινά με μια συζήτηση.</h2>
       <p data-i18n="contact.copy">Πες μας τι έχεις στο μυαλό σου, σε ποιο στάδιο βρίσκεται το τραγούδι και τι θα ήθελες να πετύχουμε μαζί.</p>
       <div class="contact-detail"><span data-i18n="contact.emailLabel">Email</span><a href="mailto:contact@example.com">contact@example.com</a>
-      </div><p class="contact-demo" data-i18n="contact.placeholderNotice">Το email είναι προσωρινό δείγμα. Αντικατάστησέ το πριν δημοσιεύσεις τη σελίδα.</p>
+      </div>
+      <p class="contact-demo" data-i18n="contact.placeholderNotice">Το email είναι προσωρινό δείγμα. Αντικατάστησέ το πριν δημοσιεύσεις τη σελίδα.</p>
     </div>
     <form class="contact-form" id="contact-form">
       <label for="contact-name" data-i18n="contact.name">Όνομα</label>
@@ -106,7 +112,8 @@
       <label for="contact-email" data-i18n="contact.email">Email</label>
       <input id="contact-email" type="email" name="email" autocomplete="email" required>
       <label for="contact-service" data-i18n="contact.service">Υπηρεσία</label>
-      <select id="contact-service" name="service"><option value="production" data-i18n="categories.producers">Παραγωγή</option>
+      <select id="contact-service" name="service">
+        <option value="production" data-i18n="categories.producers">Παραγωγή</option>
         <option value="recording" data-i18n="contact.recording">Ηχογράφηση</option>
         <option value="mixing" data-i18n="categories.mixing">Μίξη</option>
         <option value="mastering" data-i18n="categories.mastering">Mastering</option>
@@ -120,13 +127,29 @@
 </div>
 </section>
 </main>
-<footer class="site-footer"><div class="container"><div class="footer-top"><a class="footer-brand" href="index.html" aria-label="Takanuva Productions">
-  <span class="brand-mark"><strong>TAKANUVA</strong>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="footer-brand" href="index.html" aria-label="Takanuva Productions">
+  <span class="brand-mark">
+    <strong>TAKANUVA</strong>
     <small>PRODUCTIONS</small>
   </span>
 </a>
 <p data-i18n="footer.tagline">Παραγωγή, ηχογράφηση και μίξη μουσικής για δημιουργούς με ξεχωριστό ήχο.</p>
-<a class="footer-email" href="mailto:contact@example.com">contact@example.com</a></div><div class="footer-bottom"><span>© 2026 Takanuva Productions</span><div class="footer-links"><a href="services.html" data-i18n="nav.services">Υπηρεσίες</a><a href="studio.html" data-i18n="nav.studio">Στούντιο</a><a href="contact.html" data-i18n="nav.contact">Επικοινωνία</a><button class="footer-lang" data-language="el">ΕΛ</button><button class="footer-lang" data-language="en">EN</button></div></div></div></footer>
+<a class="footer-email" href="mailto:contact@example.com">contact@example.com</a>
+</div>
+<div class="footer-bottom">
+  <span>© 2026 TecX</span><div class="footer-links">
+    <a href="services.html" data-i18n="nav.services">Υπηρεσίες</a>
+    <a href="studio.html" data-i18n="nav.studio">Στούντιο</a>
+    <a href="contact.html" data-i18n="nav.contact">Επικοινωνία</a>
+    <button class="footer-lang" data-language="el">ΕΛ</button>
+    <button class="footer-lang" data-language="en">EN</button>
+  </div>
+</div>
+</div>
+</footer>
 <script src="app.js"></script>
 </body>
 </html>
