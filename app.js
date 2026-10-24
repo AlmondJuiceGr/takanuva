@@ -8,7 +8,7 @@ const translations = {
     'studio.title':'Το στούντιο','studio.lead':'Ένας δημιουργικός χώρος για να γράψεις, να ηχογραφήσεις και να ολοκληρώσεις τη μουσική σου.','studio.eyebrow':'Ο ΧΩΡΟΣ ΜΑΣ','studio.heading':'Ο ήχος ξεκινά με καλή συνεργασία.','studio.copy':'Συνδυάζουμε τεχνική φροντίδα και δημιουργικό διάλογο, ώστε κάθε απόφαση να υπηρετεί το τραγούδι και τη δική σου καλλιτεχνική κατεύθυνση.','studio.galleryEyebrow':'ΜΕΣΑ ΣΤΟ ΣΤΟΥΝΤΙΟ','studio.value1Title':'Προσωπικός ήχος','studio.value1Text':'Κάθε παραγωγή ξεκινά από το τραγούδι και όχι από μια έτοιμη συνταγή.','studio.value2Title':'Προσοχή στη λεπτομέρεια','studio.value2Text':'Ακούμε, δοκιμάζουμε και τελειοποιούμε κάθε στοιχείο της μίξης.','studio.value3Title':'Καθαρή επικοινωνία','studio.value3Text':'Ξέρεις τι ακολουθεί και συμμετέχεις στις δημιουργικές αποφάσεις.',
     'process.title':'Η διαδικασία','process.lead':'Μια απλή, συνεργατική πορεία από το πρώτο demo ως το τελικό αρχείο.','process.step1Title':'Μοιράσου την ιδέα','process.step1Text':'Πες μας για το τραγούδι, τις αναφορές σου και τον ήχο που θέλεις να πετύχεις.','process.step2Title':'Σχεδιάζουμε την παραγωγή','process.step2Text':'Συμφωνούμε στην κατεύθυνση, στα βήματα και στα αρχεία που θα χρειαστούμε.','process.step3Title':'Ολοκληρώνουμε το track','process.step3Text':'Ηχογραφούμε, μιξάρουμε και ετοιμάζουμε το master για την επόμενη κίνησή σου.','process.noteLabel':'ΤΟ ΤΕΛΙΚΟ ΣΤΑΔΙΟ','process.noteText':'Από το session στο master, με τον ήχο σου στο κέντρο.',
     'reviews.pageTitle':'Κριτικές','reviews.pageLead':'Δείγματα κειμένου για τη σελίδα κριτικών σου. Αντικατάστησέ τα με πραγματικά σχόλια πελατών.','reviews.title':'Κριτικές πελατών','reviews.sub':'Ενδεικτικά δείγματα — αντικατάστησέ τα με πραγματικές κριτικές','reviews.note':'Οι παρακάτω κριτικές είναι ενδεικτικά δείγματα. Πρόσθεσε μόνο αυθεντικές κριτικές με άδεια δημοσίευσης.',
-    'contact.title':'Πες μας για το project σου','contact.lead':'Στείλε μας λίγες λεπτομέρειες και θα επικοινωνήσουμε για τα επόμενα βήματα.','contact.eyebrow':'ΑΣ ΞΕΚΙΝΗΣΟΥΜΕ','contact.heading':'Κάθε ωραίο track ξεκινά με μια συζήτηση.','contact.copy':'Πες μας τι έχεις στο μυαλό σου, σε ποιο στάδιο βρίσκεται το τραγούδι και τι θα ήθελες να πετύχουμε μαζί.','contact.emailLabel':'Email','contact.placeholderNotice':'Το email είναι προσωρινό δείγμα. Αντικατάστησέ το πριν δημοσιεύσεις τη σελίδα.','contact.name':'Όνομα','contact.email':'Email','contact.service':'Υπηρεσία','contact.recording':'Ηχογράφηση','contact.message':'Πες μας λίγα λόγια για το project','contact.messagePlaceholder':'Τι θα ήθελες να δημιουργήσεις;','contact.submit':'Αποστολή','contact.formHint':'Η φόρμα είναι δείγμα και δεν στέλνει δεδομένα.','contact.submitted':'Το δείγμα καταχωρήθηκε μόνο στην προεπισκόπηση· σύνδεσε τη φόρμα με το email ή το backend σου.'
+    'contact.title':'Πες μας για το project σου','contact.lead':'Στείλε μας λίγες λεπτομέρειες και θα επικοινωνήσουμε για τα επόμενα βήματα.','contact.eyebrow':'ΑΣ ΞΕΚΙΝΗΣΟΥΜΕ','contact.heading':'Κάθε ωραίο track ξεκινά με μια συζήτηση.','contact.copy':'Πες μας τι έχεις στο μυαλό σου, σε ποιο στάδιο βρίσκεται το τραγούδι και τι θα ήθελες να πετύχουμε μαζί.','contact.emailLabel':'Email','contact.name':'Όνομα','contact.email':'Email','contact.service':'Υπηρεσία','contact.recording':'Ηχογράφηση','contact.message':'Πες μας λίγα λόγια για το project','contact.messagePlaceholder':'Τι θα ήθελες να δημιουργήσεις;','contact.submit':'Αποστολή','contact.formHint':'Συμπλήρωσε τη φόρμα και θα λάβουμε το μήνυμά σου στο email.','contact.submitting':'Γίνεται αποστολή του μηνύματος…','contact.success':'Το μήνυμά σου στάλθηκε με επιτυχία. Θα επικοινωνήσουμε σύντομα.','contact.error':'Η αποστολή δεν ολοκληρώθηκε. Δοκίμασε ξανά ή στείλε μας email.'
   },
   en: {
     'nav.home':'Home','nav.services':'Services','nav.producer':'Producer','nav.studio':'Studio','nav.process':'Process','nav.reviews':'Reviews','nav.contact':'Contact','nav.talk':'Let’s talk','nav.menu':'Open menu','nav.close':'Close','nav.language':'Choose language','nav.prevReview':'Previous review','nav.nextReview':'Next review',
@@ -19,7 +19,7 @@ const translations = {
     'studio.title':'The Studio','studio.lead':'A creative space to write, record and finish your music.','studio.eyebrow':'OUR SPACE','studio.heading':'Good collaboration is where the sound begins.','studio.copy':'We pair technical care with creative conversation, so every decision serves the song and your artistic direction.','studio.galleryEyebrow':'INSIDE THE STUDIO','studio.value1Title':'A sound of your own','studio.value1Text':'Every production starts with the song, not a ready-made formula.','studio.value2Title':'Attention to detail','studio.value2Text':'We listen, experiment and refine every part of the mix.','studio.value3Title':'Clear communication','studio.value3Text':'You know what comes next and stay part of the creative decisions.',
     'process.title':'Our Process','process.lead':'A simple, collaborative path from the first demo to the finished master.','process.step1Title':'Share the idea','process.step1Text':'Tell us about the song, your references and the sound you want to create.','process.step2Title':'Plan the production','process.step2Text':'We agree on the direction, the steps and the files we will need.','process.step3Title':'Finish the track','process.step3Text':'We record, mix and prepare the master for your next move.','process.noteLabel':'THE FINAL STAGE','process.noteText':'From session to master, with your sound at the center.',
     'reviews.pageTitle':'Reviews','reviews.pageLead':'Sample copy for your reviews page. Replace it with real client feedback.','reviews.title':'Client reviews','reviews.sub':'Sample copy — replace with your own verified testimonials','reviews.note':'These are example reviews. Publish only genuine testimonials with permission.',
-    'contact.title':'Tell us about your project','contact.lead':'Send a few details and we’ll get back to you about the next steps.','contact.eyebrow':'LET’S GET STARTED','contact.heading':'Every great track starts with a conversation.','contact.copy':'Tell us what you have in mind, where the song is now and what you would like us to achieve together.','contact.emailLabel':'Email','contact.placeholderNotice':'This is a sample email address. Replace it before publishing.','contact.name':'Name','contact.email':'Email','contact.service':'Service','contact.recording':'Recording','contact.message':'A few words about your project','contact.messagePlaceholder':'What would you like to create?','contact.submit':'Send inquiry','contact.formHint':'This is a sample form and does not send data.','contact.submitted':'This submission only appears in the preview; connect the form to your email or backend.'
+    'contact.title':'Tell us about your project','contact.lead':'Send a few details and we’ll get back to you about the next steps.','contact.eyebrow':'LET’S GET STARTED','contact.heading':'Every great track starts with a conversation.','contact.copy':'Tell us what you have in mind, where the song is now and what you would like us to achieve together.','contact.emailLabel':'Email','contact.name':'Name','contact.email':'Email','contact.service':'Service','contact.recording':'Recording','contact.message':'A few words about your project','contact.messagePlaceholder':'What would you like to create?','contact.submit':'Send inquiry','contact.formHint':'Fill in the form and your message will be sent to our email.','contact.submitting':'Sending your message…','contact.success':'Your message was sent successfully. We’ll be in touch soon.','contact.error':'Your message could not be sent. Please try again or email us.'
   }
 };
 
@@ -116,10 +116,27 @@ if (menuToggle && navigation && mobileMenu) {
   }));
 }
 const contactForm = document.querySelector('#contact-form');
-if (contactForm) contactForm.addEventListener('submit', event => {
+if (contactForm) contactForm.addEventListener('submit', async event => {
   event.preventDefault();
   const message = document.querySelector('#form-message');
-  message.textContent = translations[language]['contact.submitted'];
-  contactForm.reset();
+  const submitButton = contactForm.querySelector('[type="submit"]');
+  message.textContent = translations[language]['contact.submitting'];
+  contactForm.setAttribute('aria-busy', 'true');
+  submitButton.disabled = true;
+  try {
+    const response = await fetch(contactForm.action, {
+      method: 'POST',
+      body: new FormData(contactForm),
+      headers: { Accept: 'application/json' }
+    });
+    if (!response.ok) throw new Error('Form submission failed');
+    message.textContent = translations[language]['contact.success'];
+    contactForm.reset();
+  } catch {
+    message.textContent = translations[language]['contact.error'];
+  } finally {
+    contactForm.removeAttribute('aria-busy');
+    submitButton.disabled = false;
+  }
 });
 setLanguage(language);
